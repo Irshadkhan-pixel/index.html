@@ -8,23 +8,46 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
-        <button type="submit" class="btn" onclick="openPopup()" id="btn">Touch kr mujhe <br> mere pass kuch hai☹️</button>
+    <div class="container" id="closer">
+        <button type="submit" class="btn" onclick="openPopup()" id="btn">Bhai mujhe touch mt karyo,<br> warna tere saath acha nhi hoga☹️</button>
         <div class="popup" id="popup">
             <img src="png-clipart-computer-icons-company-symbol-check-mark-others-miscellaneous-game-thumbnail-removebg-preview.png" >
             <h2>Chutiye teri Girlfriend bhaag gye Danish ke saath</h2>
             <p>Ab kya kare ga tu chal soach mt tu Noor ali wali ko lekr bhaag ja or niche wala button dawa mujhe or bhi kaam hai😍😂 </p>
-            <button type="button" onclick="closePopup()">OK</button>
+            <button type="button" onclick="openPopup2()">OK</button>
+            <div class="next-popup" id="next">
+                <h2>Acha Sunn meri baat wo chali gai to kya hua tu to hira hai tujhe koi or bhi mil jaye gi😉</h2>
+                <p>Acha sunn or ek baar phir se niche wala button daba de yr😜</p>
+                <button type="button" onclick="openPopup3()">OK</button>
+                <div class="next-popup2" id="next2">
+                    <h2>Haa yrr ek ladki hai mere najar me. Tu bol to mai baat karu ousse tere liye, yrr ye bahoot achi hai👌</h2>
+                    <p>Sorry Sorry Pakane ke liye, ye wala button dawa pakka chala jaounga😆 </p>
+                    <button type="button" onclick="closePopup2()">OK</button>
+                </div>
+            </div>
         </div>
     </div>
     <script>
         let popup = document.getElementById("popup");
         function openPopup(){
-            popup.classList.add("open-Popup")
+            popup.classList.add("open-Pop")
         }
-        function closePopup(){
-            popup.classList.remove("open-Popup");
+        let popup2 = document.getElementById("next");
+        function openPopup2(){
+            popup2.classList.add("open-next")
         }
+        let popup3 = document.getElementById("next2");
+        function openPopup3(){
+            popup3.classList.add("open-third")
+        }
+        function closePopup2(){
+            popup.classList.remove("open-Pop");
+        }
+
+       
+      
+    
+
     </script>
 </body>
 </html>

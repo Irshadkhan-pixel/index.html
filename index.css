@@ -683,26 +683,25 @@ img-container img{
         position: relative;
         display: flex;
         flex-direction: column;
-        left: 2rem;
+    
     }
     .scan .fingerprint{
         position: relative;
-        width: 300px;
-        height: 330px;
+        width: 260px;
+        height: 300px;
         background: url(print.png);
-        background-size:260px ;
-        
+        background-size:200px ;
+        background-repeat: no-repeat;
+        left: 35px;
     }
-    
     .scan .fingerprint::before{
         content: "";
         position: absolute;
-        left: 12px;
-        top: 26px;
-        width: 100%;
-        height: 100%;
+        top: 23px;
+        width: 80%;
+        height: 85%;
         background: url(finger-278y7465-removebg-preview.png);
-        background-size:240px;
+        background-size:180px;
         animation: animate 5s ease-in-out infinite;
         background-repeat: no-repeat;
     }
@@ -718,9 +717,9 @@ img-container img{
         content: "";
         position: absolute;
         top: 0px;
-        left:-23px ;
+        left:-35px ;
         width: 100%;
-        height: 8px;
+        height: 5px;
         background: #3fefef;
         border-radius: 8px;
         filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
@@ -761,12 +760,13 @@ img-container img{
         position: relative;
         display: flex;
         flex-direction: column;
-        left: 2rem;
+        
     }
     .scan .fingerprint{
         position: relative;
         width: 200px;
         height: 260px;
+        left: 24px;
         background: url(print.png);
         background-size:150px ;
         background-repeat: no-repeat;
@@ -775,8 +775,8 @@ img-container img{
     .scan .fingerprint::before{
         content: "";
         position: absolute;
-        left: 12px;
-        top: 20px;
+        left: 11px;
+        top: 14px;
         width: 100%;
         height: 100%;
         background: url(finger-278y7465-removebg-preview.png);
@@ -796,7 +796,7 @@ img-container img{
         content: "";
         position: absolute;
         top: 0px;
-        left:-25px ;
+        left:-24px ;
         width: 100%;
         height: 8px;
         background: #3fefef;
@@ -816,7 +816,7 @@ img-container img{
         text-transform: uppercase;
         font-size: 1.3em;
         position: relative;
-        left: 0rem;
+        left: 1.6rem;
         letter-spacing: 2px;
         margin-top: -22px;
         color: #3fefef;
@@ -833,86 +833,6 @@ img-container img{
         }
     }
 }
-
-@media only screen and (max-width:230px){
-    .scan{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
-    .scan .fingerprint{
-        position: relative;
-        width: 96px;
-        height: 150px;
-        background: url(print.png);
-        background-size:120px ;
-        background-repeat: no-repeat;
-        left: -25px;
-    }
-    
-    .scan .fingerprint::before{
-        content: "";
-        position: absolute;
-        left: 8px;
-        top: 15px;
-        width: 97%;
-        height:96%;
-        background: url(finger-278y7465-removebg-preview.png);
-        background-size:108px;
-        background-repeat: no-repeat;
-        animation: animate 5s ease-in-out infinite;
-        background-repeat: no-repeat;
-    }
-    @keyframes animate {
-        0%,100%{
-            height: 0%;
-        }
-        50%{
-            height: 100%;
-        }
-    }
-    .scan .fingerprint::after{
-        content: "";
-        position: absolute;
-        top: 0px;
-        left:-14px;
-        width: 145px;
-        height: 5px;
-        background: #3fefef;
-        border-radius: 8px;
-        filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
-        animation: animate_line 5s ease-in-out infinite;;
-    }
-    @keyframes animate_line{
-        0%,100%{
-            top: 6%;
-        }
-        50%{
-            top: 108%;
-        }
-    }
-    .scan h3{
-        text-transform: uppercase;
-        font-size: 1em;
-        position: relative;
-        left: -25px;
-        letter-spacing: 2px;
-        margin-top: 36px;
-        color: #3fefef;
-        filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
-        animation:  animate_text 0.9s steps(1) infinite;
-    
-    }
-    @keyframes animate_text{
-        0%,100%{
-            opacity:0;
-        }
-        50%{
-            opacity: 1;
-        }
-    }
-}
-
 @media only screen and (max-width:230px){
     .scan{
         position: relative;
@@ -926,9 +846,8 @@ img-container img{
         background: url(print.png);
         background-size:90px ;
         background-repeat: no-repeat;
-        left: -14px;
+        left: 0px;
     }
-    
     .scan .fingerprint::before{
         content: "";
         position: absolute;
@@ -954,9 +873,8 @@ img-container img{
         content: "";
         position: absolute;
         top: 0px;
-        left:-14px;
-        width: 114px;
-        height: 5px;
+        width: 150px;
+        height: 4px;
         background: #3fefef;
         border-radius: 8px;
         filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
@@ -972,14 +890,14 @@ img-container img{
     }
     .scan h3{
         text-transform: uppercase;
-        font-size: 1em;
+        font-size: 0.5em;
         position: relative;
-        left: -25px;
+        left: 10px;
         letter-spacing: 2px;
         margin-top: 36px;
         color: #3fefef;
         filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
-        animation:  animate_text 0.9s steps(1) infinite;
+        animation:  animate_text 01s steps(1) infinite;
     
     }
     @keyframes animate_text{

@@ -69,7 +69,7 @@
     width: 400px;
     height: 400px;
     color: white;
-    /* background-color: rgb(126, 126, 125); */
+    
     border-top: 2px solid red;
     border-left: 2px solid rgb(0, 8, 255);
     border-bottom: 2px solid rgb(12, 255, 227);
@@ -206,68 +206,7 @@
     padding-top: 0.6rem;
     box-shadow: 1px 1px 18px rgb(117, 145, 222), 1px 1px 18px rgb(108, 149, 237);
 }
-/* .main_container{
-    width: 220px;
-    height: 400px;
-    display: none;
-    position: absolute;
-    left: 40%;
-    top: 13%;
-    border-radius: 1rem;
-    background-color: rgb(16, 12, 132);
-    box-shadow: 1px 1px 20px rgb(228, 226, 226), 1px 1px 20px rgb(3, 104, 246);
-}
-button{
-    position: relative;
-    
-    height: 30px;
-    width: 120px;
-    border-radius: 0.3rem;
-    display: inline-block;
-    outline: none;
-    border: none;
-    color: blue;
-    font-size: 20px;
-    left: 3.4rem;
-    top: 8rem;
-}
-.togethrts{
-   
-    color: white;
-    font-size: 12px;
-    font-family: 'Dancing Script', cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 105px;
-    height: 60px;
-    line-height: 2rem;
-    position: relative;
-    left: 4rem;
-    top: 2rem;
-}
-.rose{
-    position: relative;
-    color: white;
-    top: 4rem;
-    font-size: 20px;
-    width: 130px;
-    height: 130px;
-    left: 2.5rem;
-    padding: 1.7rem 2.3rem;
-    border-radius: 50%;
-    box-shadow: 1px 1px 20px rgb(188, 184, 184), 1px 1px 20px rgb(224, 221, 221);
-}
-.invi{
-    position: relative;
-    top: 6rem;
-    font-size: 12px;
-    padding-left: 2rem;
-    color: white;
-}
-#spa{
-    padding-left: 3rem;
-} */
+
 @media only screen and (max-width:400px){
     .main{
         width: 100%;

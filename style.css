@@ -246,10 +246,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 260px;
-        position: absolute;
-        left: 0rem;
-        top: -7rem;
+        width: 200px;
+        height: 160px;
+        position: relative;
+        left: 5rem;
+        top: -3.6rem;
     }
     .b{
         position: absolute;
@@ -267,8 +268,9 @@
     }
     .weds-heart{
         position: absolute;
-        left:37px;
-        height: 100px;
+        left:25px;
+        height: 110px;
+        width: 170px;
         top: -4rem;
     }
     .main_text{
@@ -285,6 +287,7 @@
         left: 7rem;
         box-shadow: 1px 1px 20px rgb(228, 243, 20), 1px 1px 20px rgb(237, 210, 6);
         animation: animate 12s linear infinite;
+       
     
     }
     @keyframes animate {
@@ -323,6 +326,7 @@
         left:4.5rem;
         font-size: 12px;
         font-family: 'Dancing Script', cursive;
+        
     }
     .main_text .rozi{
         position: absolute;
@@ -337,37 +341,40 @@
         left: 2.8rem;
         font-size: 14px;
         font-family: 'Dancing Script', cursive;
+       
     }
     .animate{
         position: absolute;
-        width: 250px;
+        width: 260px;
         height: 30px;
         color: aliceblue;
         bottom:6.5rem;
-        left: 4.7rem;
-        padding-left:6.3rem ;
+        left: 4.2rem;
+        padding-left:6.4rem ;
         padding-top: 0.8rem;
         line-height: 2.1rem;
         background-color: rgb(3, 2, 3);
         box-shadow: 1px 1px 10px rgb(34, 255, 82), 1px 1px 10px rgb(34, 255, 82);
         border-radius: 3.6rem;
+       
     }
     .invite{
         
         position: absolute;
-        left: -4.5rem;
+        left: -3.5rem;
         color: rgb(25, 206, 238);
         font-size: 18px;
-        width: 400px;
-        bottom:-6rem;
+        width: 380px;
+        bottom:-5rem;
         /* border: 1px solid red; */
     }
     .welcome{
         position: relative;
-        left: -5.6rem;
-        font-size: 12px;
+        left: -5.8rem;
+        font-size: 13px;
         bottom: 0.9rem;
-        width: 230px;
+        width: 250px;
+        /* border: 1px solid red; */
         
     }
     .container2{
@@ -376,6 +383,7 @@
         background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
+      
     }
     .duwa{
         position: relative;
@@ -383,6 +391,7 @@
         height: 100px;
         top: 6rem;
         left: 9.5rem;
+      
     }
     .ladki_wla{
         width: 240px;
@@ -400,6 +409,7 @@
     }
     .address{
         font-size: 12px;
+        width: 160px;
     }
     .ladka_wla{
         width: 240px;
@@ -410,31 +420,34 @@
         top: 9rem;
         color: rgb(192, 8, 180);
         padding-left: 1.3rem;
-        padding-top: 1rem;
+        padding-top: 0.5rem;
         line-height: 1.3rem;
         border-radius: 0.6rem;
         box-shadow: 1px 1px 8px rgb(192, 8, 180), 1px 1px 8px rgb(246, 14, 230);
+       
     }
     .address2{
         font-size: 14px;
+        width: 155px;
     }
     .best{
-        width: 300px;
+        width: 310px;
         height: 33px;
         position: relative;
-        left: 3.1rem;
-        bottom: -12rem;
+        left: 2.8rem;
+        bottom: -13rem;
         color: rgb(63, 164, 253);
         border-radius: 0.6rem;
         font-size: 15px;
-        padding-left: 0.3rem;
+        padding-left: 0.5rem;
         padding-top: 0.5rem;
         box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
+       
     }
 
 }
 
-@media only screen and (max-width:396px){
+/* @media only screen and (max-width:396px){
     .main{
         width: 100%;
         height: 100%;
@@ -657,9 +670,9 @@
         box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
     }
 
-}
+} */
 
-@media only screen and (max-width:390px){
+/* @media only screen and (max-width:390px){
     .main{
         width: 100%;
         height: 100%;
@@ -882,9 +895,9 @@
         box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
     }
 
-}
+} */
 
-@media only screen and (max-width:384px){
+/* @media only screen and (max-width:384px){
     .main{
         width: 100%;
         height: 100%;
@@ -1107,8 +1120,9 @@
         box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
     }
 
-}
-@media only screen and (max-width:378px){
+} */
+
+/* @media only screen and (max-width:378px){
     .main{
         width: 100%;
         height: 100%;
@@ -1331,9 +1345,9 @@
         box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
     }
 
-}
+} */
 
-@media only screen and (max-width:366px){
+/* @media only screen and (max-width:366px){
     .main{
         width: 100%;
         height: 100%;
@@ -1556,4 +1570,4 @@
         box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
     }
 
-}
+} */

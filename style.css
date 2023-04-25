@@ -138,7 +138,7 @@
     font-weight: 600;
 }
 
-@media only screen and (max-width:720px){
+@media only screen and (max-width:400px){
     .content{
         display: grid;
         width: 100%;
@@ -149,7 +149,7 @@
      .main{
         border: 1px solid red;
         width: 35%;
-        height: 90vh;
+        height: 80vh;
         display: grid;
         position: relative;
         left: 12rem;
@@ -163,7 +163,7 @@
         /* border: 1px solid red; */
         width: 90px;
         height: 20px;
-        top: 3rem;
+        top: 3.6rem;
         padding-left: 0rem;
         padding-top:0.2rem ;
         font-size: 15px;
@@ -176,9 +176,9 @@
         width: 180px;
         height: 40px;
         top: 2rem;
-        padding-left: 1rem;
+        padding-left: 2.5rem;
         padding-top:0.2rem ;
-        font-size: 15px;
+        font-size: 10px;
         color: rgb(243, 46, 243);
       
      }
@@ -230,14 +230,14 @@
         height: 25px;
         left: 3.5rem;
         font-size: 17px;
-        bottom: 6rem;
+        bottom: 5rem;
         font-family: 'Dancing Script', cursive;
         color: rgb(228, 78, 248);
     }
     .second{
         border: 1px solid red;
         width: 35%;
-        height: 90vh;
+        height: 80vh;
         display: flex;
         position: relative;
         left: 12rem;
@@ -271,4 +271,139 @@
         color: rgb(6, 130, 91);
         font-weight:bold;
     }
+}
+
+@media only screen and (min-width:240px){
+   .content{
+       display: grid;
+       width: 100%;
+       height: 200vh;
+       border: 1px solid red;
+       background-color: yellow;
+    }
+    .main{
+       border: 1px solid red;
+       width: 35%;
+       height: 80vh;
+       display: grid;
+       position: relative;
+       left: 13.2rem;
+       background-image: url(926ebe72a878965a0d75b9bde47fb2eb.jpg);
+       background-size: 100% 100%;
+       margin-bottom: 0px;
+    }
+    #soy{
+       position: relative;
+       left: 4rem;
+       /* border: 1px solid red; */
+       width: 90px;
+       height: 20px;
+       top: 3.6rem;
+       padding-left: 0rem;
+       padding-top:0.2rem ;
+       font-size: 15px;
+       color: rgb(37, 9, 129);
+    }
+    .togather{
+       position: relative;
+       left: 1rem;
+       /* border: 1px solid  red; */
+       width: 180px;
+       height: 40px;
+       top: 2rem;
+       padding-left: 2.5rem;
+       padding-top:0.2rem ;
+       font-size: 10px;
+       color: rgb(243, 46, 243);
+     
+    }
+    .mini{
+       position: relative;
+       left: 3rem;
+       /* border: 1px solid red; */
+       width: 150px;
+       height: 100px;
+       top: 0rem;
+       padding-left: 0.2rem;
+       padding-top:0.1rem ;
+       font-size: 12px;
+     
+       font-family: 'Dancing Script', cursive;
+       color: rgb(23, 18, 122);
+   
+    }
+    .weds{
+       position: relative;
+       left: 3rem;
+       color: rgb(70, 96, 141);
+    }
+    .invi{
+       position: relative;
+       /* border: 1px solid red; */
+       width: 200px;
+       height: 20px;
+       font-size: 10px;
+       left: 1.2rem;
+       bottom: 2rem;
+    }
+   .date{
+       position: relative;
+       /* border: 1px solid red; */
+       width: 140px;
+       height: 27px;
+       left: 3.2rem;
+       bottom: 3.7rem;
+       font-size:16px;
+       font-weight: 600;
+       font-family: 'Dancing Script', cursive;
+       color: rgb(255, 196, 0);
+   }
+   .foloow{
+       position: relative;
+       /* border: 1px solid red; */
+       width: 120px;
+       height: 25px;
+       left: 3.5rem;
+       font-size: 17px;
+       bottom: 5rem;
+       font-family: 'Dancing Script', cursive;
+       color: rgb(228, 78, 248);
+   }
+   .second{
+       border: 1px solid red;
+       width: 35%;
+       height: 80vh;
+       display: flex;
+       position: relative;
+       left: 13.2rem;
+       background-image: url(926ebe72a878965a0d75b9bde47fb2eb.jpg);
+       background-size: 100% 100%;
+   }
+   .third{
+       /* border: 1px solid red; */
+       height: 200px;
+       width: 350px;
+       position: relative;
+       top: 4rem;
+       padding-left: 1rem;
+       font-size: 10px;
+        font-family: 'Cinzel', serif;
+        color: rgb(16, 44, 114);
+   }
+   .fourth{
+       /* border: 1px solid red; */
+       height: 120px;
+       width: 300px;
+       font-size: 10px;
+       right: 1.2rem;
+       position: relative;
+       top: 13rem;
+       padding-left: 1.4rem;
+        font-family: 'Cinzel', serif;
+        color: rgb(16, 44, 114);
+   }
+   .form{
+       color: rgb(6, 130, 91);
+       font-weight:bold;
+   }
 }

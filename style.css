@@ -295,7 +295,7 @@
     }
     #soy{
        position: relative;
-       left: 8rem;
+       left: 7rem;
        /* border: 1px solid red; */
        width: 90px;
        height: 20px;
@@ -307,9 +307,9 @@
     }
     .togather{
        position: relative;
-       left: 5rem;
+       left: 3.7rem;
        /* border: 1px solid  red; */
-       width: 180px;
+       width: 240px;
        height: 40px;
        top: 12rem;
        padding-left: 1rem;
@@ -385,7 +385,7 @@
        height: 250px;
        width: 350px;
        position: relative;
-       top: 5rem;
+       top: 10rem;
        left: 1rem;
        padding-top: 1rem;
        padding-left: 1rem;
@@ -401,7 +401,7 @@
        font-size: 14px;
        right: 1.2rem;
        position: relative;
-       top: 26rem;
+       top:30.5rem;
        padding-left: 1rem;
        padding-top: 1rem;
         font-family: 'Cinzel', serif;

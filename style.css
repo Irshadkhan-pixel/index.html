@@ -1,1573 +1,274 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-.main{
+ .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 200vh;
-    /* display: none; */
-}
-.container{
-    width: 100%;
-    height: 180vh;
-    background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-    background-repeat: no-repeat;
+    height: 100vh;
+    border: 1px solid red;
+    background-color: yellow;
+ }
+ .main{
+    border: 1px solid red;
+    width: 35%;
+    height: 90vh;
+    display: grid;
+    position: relative;
+    left: 0rem;
+    background-image: url(926ebe72a878965a0d75b9bde47fb2eb.jpg);
     background-size: 100% 100%;
-    
-}
-.log{
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 8rem;
-    top: 200px;
-}
-.heart{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 280px;
-    position: absolute;
-    left: -30px;
-    top: -10rem;
-}
-.knife{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 260px;
-    position: absolute;
-    left: 1rem;
-    top: -7rem;
-}
-.b{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    top:-2rem;
-    left: 20px;
-}
-.g{
-    position: absolute;
-    width:70px;
-    height: 70px;
-    top: -5rem;
-    left:8.7rem;
-}
-.weds-heart{
-    position: absolute;
-    left:38px;
-    height: 110px;
-    top: -6rem;
-}
-.main_text{
-    width: 400px;
-    height: 400px;
-    color: white;
-    
-    border-top: 2px solid red;
-    border-left: 2px solid rgb(0, 8, 255);
-    border-bottom: 2px solid rgb(12, 255, 227);
-    border-right: 2px solid rgb(255, 0, 212);
-    border-radius: 50%;
-    position: absolute;
-    top: 18rem;
-    left: 27rem;
-    box-shadow: 1px 1px 40px rgb(228, 243, 20), 1px 1px 40px rgb(237, 210, 6);
-    animation: animate 12s linear infinite;
-
-}
-@keyframes animate {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-.main_text .date{
-    position: absolute;
-    left: 7rem;
-    top: 4rem;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
-}
-.main_text .wedding{
-    position: absolute;
-    top: 7rem;
-    left:7rem;
+ }
+ #soy{
+    position: relative;
+    left: 9rem;
+    /* border: 1px solid red; */
+    width: 195px;
+    height: 40px;
+    top: 3rem;
+    padding-left: 1rem;
+    padding-top:0.2rem ;
     font-size: 20px;
-    font-family: 'Dancing Script', cursive;
-    color: rgb(251, 255, 0);
-}
-.main_text .iqbal{
-    position: absolute;
-    top: 10rem;
+    color: rgb(37, 9, 129);
+ }
+ .togather{
+    position: relative;
+    left: 6.4rem;
+   
+    width: 250px;
+    height: 40px;
+    top: 0rem;
+    padding-left: 1rem;
+    padding-top:0.2rem ;
+    font-size: 18px;
+    color: rgb(243, 46, 243);
+  
+ }
+ .mini{
+    position: relative;
     left: 6rem;
-    font-family: 'Dancing Script', cursive;
-    
-}
-.main_text .weds{
-    position: absolute;
-    top:13rem;
-    left:11rem;
-    font-family: 'Dancing Script', cursive;
-}
-.main_text .rozi{
-    position: absolute;
-    top: 15rem;
-    left: 6.5rem;
-    font-family: 'Dancing Script', cursive;
-}
-.main_text .date2{
-    position: absolute;
-    top: 19rem;
-    left: 10rem;
-    font-family: 'Dancing Script', cursive;
-}
-.animate{
-    position: absolute;
-    width: 500px;
-    height: 100px;
-    color: aliceblue;
-    bottom: -18rem;
-    left: 24rem;
-    padding-left:6rem ;
-    padding-top: 0.8rem;
-    line-height: 2.1rem;
-    background-color: rgb(3, 2, 3);
-    box-shadow: 1px 1px 20px rgb(34, 255, 82), 1px 1px 20px rgb(34, 255, 82);
-    border-radius: 3.6rem;
-}
-.invite{
-    
-    position: relative;
-    left: -6rem;
-    color: rgb(255, 140, 0);
+    /* border: 1px solid red; */
+    width: 260px;
+    height: 150px;
+    top: -1rem;
+    padding-left: 1.3rem;
+    padding-top:0.1rem ;
     font-size: 20px;
-    width: 500px;
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Dancing Script', cursive;
+    color: rgb(23, 18, 122);
+
+ }
+ .weds{
+    position: relative;
+    left: 5rem;
+    color: rgb(70, 96, 141);
+ }
+ .invi{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 330px;
+    height: 26px;
+    
+    left: 5rem;
+    bottom: 2rem;
+ }
+.date{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 175px;
+    height: 30px;
+    left: 9rem;
+    bottom: 3.7rem;
+    font-size:20px;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 196, 0);
 }
-.container2{
-    width: 100%;
-    height: 170vh;
-    background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-    background-repeat: no-repeat;
+.foloow{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 140px;
+    height: 30px;
+    left: 10rem;
+    font-size: 20px;
+    bottom: 5rem;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(228, 78, 248);
+}
+.second{
+    border: 1px solid red;
+    width: 35%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    left: 0rem;
+    /* flex-wrap: wrap; */
+    background-image: url(926ebe72a878965a0d75b9bde47fb2eb.jpg);
     background-size: 100% 100%;
 }
-.duwa{
+.third{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 350px;
     position: relative;
-    width: 200px;
-    height: 230px;
-    top: 6rem;
-    left: 33rem;
+    top: 7rem;
+    padding-left: 1rem;
+     font-family: 'Cinzel', serif;
+     color: rgb(16, 44, 114);
 }
-.ladki_wla{
-    width: 330px;
-    height: 300px;
+.fourth{
+    /* border: 1px solid red; */
+    height: 120px;
+    width: 300px;
+    font-size: 17px;
+    right: 1.2rem;
     position: relative;
-    left: 15rem;
-    top: 9rem;
-    color: rgb(30, 252, 252);
-    
-    padding-left: 2rem;
-    padding-top: 2rem;
-    line-height: 1.6rem;
-    border-radius: 0.6rem;
-    box-shadow: 1px 1px 20px rgb(30, 252, 252), 1px 1px 20px gray;
+    top: 20rem;
+    padding-left: 1.4rem;
+     font-family: 'Cinzel', serif;
+     color: rgb(16, 44, 114);
 }
-.ladka_wla{
-    width: 330px;
-    height: 300px;
-    position: relative;
-    left:43rem;
-    bottom: 10rem;
-    color: rgb(192, 8, 180);
-    padding-left: 2rem;
-    padding-top: 2rem;
-    line-height: 2rem;
-    border-radius: 0.6rem;
-    box-shadow: 1px 1px 20px rgb(192, 8, 180), 1px 1px 20px rgb(246, 14, 230);
-}
-.best{
-    width: 500px;
-    height: 50px;
-    position: relative;
-    left: 25rem;
-    bottom: 5rem;
-    color: rgb(63, 164, 253);
-    border-radius: 0.6rem;
-    font-size: 20px;
-    padding-left: 3rem;
-    padding-top: 0.6rem;
-    box-shadow: 1px 1px 18px rgb(117, 145, 222), 1px 1px 18px rgb(108, 149, 237);
+.form{
+    color: rgb(6, 21, 130);
+    font-weight: 600;
 }
 
-@media only screen and (max-width:400px){
-    .main{
+@media only screen and (max-width:720px){
+    .content{
+        display: grid;
         width: 100%;
-        height: 100%;
-        
-    }
-    .container{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
+        height: 200vh;
+        border: 1px solid red;
+        background-color: yellow;
+     }
+     .main{
+        border: 1px solid red;
+        width: 35%;
+        height: 90vh;
+        display: grid;
+        position: relative;
+        left: 12rem;
+        background-image: url(926ebe72a878965a0d75b9bde47fb2eb.jpg);
         background-size: 100% 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .log{
-        width: 90px;
-        height: 90px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        left: 1.4rem;
-        top: 140px;
-    }
-    .heart{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 220px;
-        position: absolute;
-        left: -2px;
-        top: -7rem;
-    }
-    .knife{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 200px;
-        height: 160px;
+        margin-bottom: 0px;
+     }
+     #soy{
         position: relative;
-        left: 5rem;
-        top: -3.6rem;
-    }
-    .b{
-        position: absolute;
-        width: 70px;
-        height: 50px;
-        top:-1rem;
-        left: 20px;
-    }
-    .g{
-        position: absolute;
-        width:50px;
-        height: 50px;
-        top: -3rem;
-        left:7.8rem;
-    }
-    .weds-heart{
-        position: absolute;
-        left:25px;
-        height: 110px;
-        width: 170px;
-        top: -4rem;
-    }
-    .main_text{
-        width: 180px;
-        height: 180px;
-        color: white;
-        border-top: 2px solid red;
-        border-left: 2px solid rgb(0, 8, 255);
-        border-bottom: 2px solid rgb(12, 255, 227);
-        border-right: 2px solid rgb(255, 0, 212);
-        border-radius: 50%;
-        position: absolute;
-        top: 18rem;
-        left: 7rem;
-        box-shadow: 1px 1px 20px rgb(228, 243, 20), 1px 1px 20px rgb(237, 210, 6);
-        animation: animate 12s linear infinite;
-       
-    
-    }
-    @keyframes animate {
-        0%{
-            transform: rotate(0deg);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-    }
-    .main_text .date{
-        position: absolute;
-        left: 3rem;
-        top: 1rem;
-        font-size: 17px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .wedding{
-        position: absolute;
-        top: 2.5rem;
-        left:2.2rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-        color: rgb(251, 255, 0);
-    }
-    .main_text .iqbal{
-        position: absolute;
-        top: 3.8rem;
-        left: 2rem;
-        font-family: 'Dancing Script', cursive;
-        font-size: 18px;
-    }
-    .main_text .weds{
-        position: absolute;
-        top:5.6rem;
-        left:4.5rem;
-        font-size: 12px;
-        font-family: 'Dancing Script', cursive;
-        
-    }
-    .main_text .rozi{
-        position: absolute;
-        top: 7rem;
-        left: 2.7rem;
-        font-size: 18px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .date2{
-        position: absolute;
-        top: 8.8rem;
-        left: 2.8rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-       
-    }
-    .animate{
-        position: absolute;
-        width: 260px;
-        height: 30px;
-        color: aliceblue;
-        bottom:6.5rem;
-        left: 4.2rem;
-        padding-left:6.4rem ;
-        padding-top: 0.8rem;
-        line-height: 2.1rem;
-        background-color: rgb(3, 2, 3);
-        box-shadow: 1px 1px 10px rgb(34, 255, 82), 1px 1px 10px rgb(34, 255, 82);
-        border-radius: 3.6rem;
-       
-    }
-    .invite{
-        
-        position: absolute;
-        left: -3.5rem;
-        color: rgb(25, 206, 238);
-        font-size: 18px;
-        width: 380px;
-        bottom:-5rem;
-        /* border: 1px solid red; */
-    }
-    .welcome{
-        position: relative;
-        left: -5.8rem;
-        font-size: 13px;
-        bottom: 0.9rem;
-        width: 250px;
-        /* border: 1px solid red; */
-        
-    }
-    .container2{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-      
-    }
-    .duwa{
-        position: relative;
-        width: 90px;
-        height: 100px;
-        top: 6rem;
-        left: 9.5rem;
-      
-    }
-    .ladki_wla{
-        width: 240px;
-        height: 220px;
-        position: relative;
-        font-size: 13px;
-        left: 5rem;
-        top: 7rem;
-        padding-top:0.6rem ;
-        padding-left: 1rem;
-        color: rgb(30, 252, 252);
-        line-height: 1.3rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 10px rgb(30, 252, 252), 1px 1px 10px gray;
-    }
-    .address{
-        font-size: 12px;
-        width: 160px;
-    }
-    .ladka_wla{
-        width: 240px;
-        height: 120px;
-        position: relative;
-        left:5rem;
-        font-size:10px;
-        top: 9rem;
-        color: rgb(192, 8, 180);
-        padding-left: 1.3rem;
-        padding-top: 0.5rem;
-        line-height: 1.3rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 8px rgb(192, 8, 180), 1px 1px 8px rgb(246, 14, 230);
-       
-    }
-    .address2{
-        font-size: 14px;
-        width: 155px;
-    }
-    .best{
-        width: 310px;
-        height: 33px;
-        position: relative;
-        left: 2.8rem;
-        bottom: -13rem;
-        color: rgb(63, 164, 253);
-        border-radius: 0.6rem;
-        font-size: 15px;
-        padding-left: 0.5rem;
-        padding-top: 0.5rem;
-        box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
-       
-    }
-
-}
-
-/* @media only screen and (max-width:396px){
-    .main{
-        width: 100%;
-        height: 100%;
-        
-    }
-    .container{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        
-    }
-    .log{
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        left: 0rem;
-        top: 100px;
-        
-    }
-    .heart{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 180px;
-        position: absolute;
-        left: 10px;
-        top: -7rem;
-    }
-    .knife{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 260px;
-        position: absolute;
-        left: 3rem;
-        top: -8rem;
-    }
-    .b{
-        position: absolute;
-        width: 45px;
-        height: 45px;
-        top:-2rem;
-        left: 45px;
-    }
-    .g{
-        position: absolute;
-        width:40px;
-        height: 40px;
-        top: -4rem;
-        left:7rem;
-    }
-    .weds-heart{
-        position: absolute;
-        left:37px;
-        height: 90px;
-        top: -5.6rem;
-    }
-    .main_text{
-        width: 180px;
-        height: 180px;
-        color: white;
-        border-top: 2px solid red;
-        border-left: 2px solid rgb(0, 8, 255);
-        border-bottom: 2px solid rgb(12, 255, 227);
-        border-right: 2px solid rgb(255, 0, 212);
-        border-radius: 50%;
-        position: absolute;
-        top: 9rem;
-        left: 6.6rem;
-        box-shadow: 1px 1px 20px rgb(228, 243, 20), 1px 1px 20px rgb(237, 210, 6);
-        animation: animate 12s linear infinite;
-    
-    }
-    @keyframes animate {
-        0%{
-            transform: rotate(0deg);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-    }
-    .main_text .date{
-        position: absolute;
-        left: 3rem;
-        top: 1rem;
-        font-size: 17px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .wedding{
-        position: absolute;
-        top: 2.5rem;
-        left:2.2rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-        color: rgb(251, 255, 0);
-    }
-    .main_text .iqbal{
-        position: absolute;
-        top: 3.8rem;
-        left: 2rem;
-        font-family: 'Dancing Script', cursive;
-        font-size: 18px;
-    }
-    .main_text .weds{
-        position: absolute;
-        top:5.6rem;
-        left:4.5rem;
-        font-size: 12px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .rozi{
-        position: absolute;
-        top: 7rem;
-        left: 2.7rem;
-        font-size: 18px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .date2{
-        position: absolute;
-        top: 8.8rem;
-        left: 2.8rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .animate{
-        position: absolute;
-        width: 250px;
-        height: 30px;
-        color: aliceblue;
-        bottom:5rem;
-        left: 4.4rem;
-        padding-left:6.3rem ;
-        padding-top: 0.8rem;
-        line-height: 2.1rem;
-        background-color: rgb(3, 2, 3);
-        box-shadow: 1px 1px 10px rgb(34, 255, 82), 1px 1px 10px rgb(34, 255, 82);
-        border-radius: 3.6rem;
-    }
-    .invite{
-        
-        position: absolute;
-        left: -1.5rem;
-        color: rgb(25, 206, 238);
-        font-size: 14px;
-        width: 300px;
-        bottom:-4rem;
-    }
-    .welcome{
-        position: relative;
-        left: -5.6rem;
-        font-size: 12px;
-        bottom: 0.9rem;
-        width: 230px;
-        
-    }
-    .container2{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-    .duwa{
-        position: relative;
-        width: 90px;
-        height: 100px;
-        top: 2.8rem;
-        left: 9.5rem;
-    }
-    .ladki_wla{
-        width: 240px;
-        height: 155px;
-        position: relative;
-        font-size: 12px;
-        left: 4.8rem;
-        top: 2.6rem;
-        padding-top:0.6rem ;
-        padding-left: 1rem;
-        color: rgb(30, 252, 252);
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 10px rgb(30, 252, 252), 1px 1px 10px gray;
-    }
-    .address{
-        font-size: 10px;
-    }
-    .ladka_wla{
-        width: 240px;
-        height: 90px;
-        position: relative;
-        left:4.8rem;
-        font-size:8.4px;
-        top: 3.7rem;
-        color: rgb(192, 8, 180);
-        padding-left: 0.8rem;
-        padding-top: 0.6rem;
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 8px rgb(192, 8, 180), 1px 1px 8px rgb(246, 14, 230);
-    }
-    .address2{
-        font-size: 12px;
-    }
-    .best{
-        width: 296px;
-        height: 33px;
-        position: relative;
-        left: 3.2rem;
-        bottom: -5.7rem;
-        color: rgb(63, 164, 253);
-        border-radius: 0.6rem;
-        font-size: 15px;
-        padding-left: 0.3rem;
-        padding-top: 0.5rem;
-        box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
-    }
-
-} */
-
-/* @media only screen and (max-width:390px){
-    .main{
-        width: 100%;
-        height: 100%;
-        
-    }
-    .container{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        
-    }
-    .log{
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        left: 0rem;
-        top: 100px;
-        
-    }
-    .heart{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 180px;
-        position: absolute;
-        left: 10px;
-        top: -7rem;
-    }
-    .knife{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 260px;
-        position: absolute;
-        left: 3rem;
-        top: -8rem;
-    }
-    .b{
-        position: absolute;
-        width: 45px;
-        height: 45px;
-        top:-2rem;
-        left: 45px;
-    }
-    .g{
-        position: absolute;
-        width:40px;
-        height: 40px;
-        top: -4rem;
-        left:7rem;
-    }
-    .weds-heart{
-        position: absolute;
-        left:37px;
-        height: 90px;
-        top: -5.6rem;
-    }
-    .main_text{
-        width: 180px;
-        height: 180px;
-        color: white;
-        border-top: 2px solid red;
-        border-left: 2px solid rgb(0, 8, 255);
-        border-bottom: 2px solid rgb(12, 255, 227);
-        border-right: 2px solid rgb(255, 0, 212);
-        border-radius: 50%;
-        position: absolute;
-        top: 9rem;
-        left: 6.6rem;
-        box-shadow: 1px 1px 20px rgb(228, 243, 20), 1px 1px 20px rgb(237, 210, 6);
-        animation: animate 12s linear infinite;
-    
-    }
-    @keyframes animate {
-        0%{
-            transform: rotate(0deg);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-    }
-    .main_text .date{
-        position: absolute;
-        left: 3rem;
-        top: 1rem;
-        font-size: 17px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .wedding{
-        position: absolute;
-        top: 2.5rem;
-        left:2.2rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-        color: rgb(251, 255, 0);
-    }
-    .main_text .iqbal{
-        position: absolute;
-        top: 3.8rem;
-        left: 2rem;
-        font-family: 'Dancing Script', cursive;
-        font-size: 18px;
-    }
-    .main_text .weds{
-        position: absolute;
-        top:5.6rem;
-        left:4.5rem;
-        font-size: 12px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .rozi{
-        position: absolute;
-        top: 7rem;
-        left: 2.7rem;
-        font-size: 18px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .date2{
-        position: absolute;
-        top: 8.8rem;
-        left: 2.8rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .animate{
-        position: absolute;
-        width: 235px;
-        height: 30px;
-        color: aliceblue;
-        bottom:5rem;
-        left: 4.8rem;
-        padding-left:6rem ;
-        padding-top: 0.8rem;
-        line-height: 2.1rem;
-        background-color: rgb(3, 2, 3);
-        box-shadow: 1px 1px 10px rgb(34, 255, 82), 1px 1px 10px rgb(34, 255, 82);
-        border-radius: 3.6rem;
-    }
-    .invite{
-        
-        position: absolute;
-        left: -2rem;
-        color: rgb(25, 206, 238);
-        font-size: 14px;
-        width: 300px;
-        bottom:-4rem;
-    }
-    .welcome{
-        position: relative;
-        left: -5.6rem;
-        font-size: 12px;
-        bottom: 0.9rem;
-        width: 230px;
-        
-    }
-    .container2{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-    .duwa{
-        position: relative;
-        width: 60px;
-        height: 70px;
-        top: 2.8rem;
-        left: 10.3rem;
-    }
-    .ladki_wla{
-        width: 220px;
-        height: 160px;
-        position: relative;
-        font-size: 12px;
-        left: 5.2rem;
-        top: 2.6rem;
-        padding-top:0.6rem ;
-        padding-left: 0.7rem;
-        color: rgb(30, 252, 252);
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 10px rgb(30, 252, 252), 1px 1px 10px gray;
-    }
-    .address{
-        font-size: 10px;
-    }
-    .ladka_wla{
-        width: 220px;
-        height: 90px;
-        position: relative;
-        left:5.3rem;
-        font-size:8.4px;
-        top: 5rem;
-        color: rgb(192, 8, 180);
-        padding-left: 0.8rem;
-        padding-top: 0.6rem;
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 8px rgb(192, 8, 180), 1px 1px 8px rgb(246, 14, 230);
-    }
-    .address2{
-        font-size: 12px;
-    }
-    .best{
-        width: 296px;
-        height: 33px;
-        position: relative;
-        left: 2.7rem;
-        bottom: -7.6rem;
-        color: rgb(63, 164, 253);
-        border-radius: 0.6rem;
-        font-size: 15px;
-        padding-left: 0.3rem;
-        padding-top: 0.5rem;
-        box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
-    }
-
-} */
-
-/* @media only screen and (max-width:384px){
-    .main{
-        width: 100%;
-        height: 100%;
-        
-    }
-    .container{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        
-    }
-    .log{
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        left: 0rem;
-        top: 100px;
-        
-    }
-    .heart{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 180px;
-        position: absolute;
-        left: 10px;
-        top: -7rem;
-    }
-    .knife{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 260px;
-        position: absolute;
-        left: 3rem;
-        top: -8rem;
-    }
-    .b{
-        position: absolute;
-        width: 45px;
-        height: 45px;
-        top:-2rem;
-        left: 45px;
-    }
-    .g{
-        position: absolute;
-        width:40px;
-        height: 40px;
-        top: -4rem;
-        left:7rem;
-    }
-    .weds-heart{
-        position: absolute;
-        left:37px;
-        height: 90px;
-        top: -5.6rem;
-    }
-    .main_text{
-        width: 180px;
-        height: 180px;
-        color: white;
-        border-top: 2px solid red;
-        border-left: 2px solid rgb(0, 8, 255);
-        border-bottom: 2px solid rgb(12, 255, 227);
-        border-right: 2px solid rgb(255, 0, 212);
-        border-radius: 50%;
-        position: absolute;
-        top: 9rem;
-        left: 6rem;
-        box-shadow: 1px 1px 10px rgb(228, 243, 20), 1px 1px 10px rgb(237, 210, 6);
-        animation: animate 12s linear infinite;
-    
-    }
-    @keyframes animate {
-        0%{
-            transform: rotate(0deg);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-    }
-    .main_text .date{
-        position: absolute;
-        left: 3rem;
-        top: 1rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .wedding{
-        position: absolute;
-        top: 2.5rem;
-        left:2.2rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-        color: rgb(251, 255, 0);
-    }
-    .main_text .iqbal{
-        position: absolute;
-        top: 3.8rem;
-        left: 2rem;
-        font-family: 'Dancing Script', cursive;
-        font-size: 18px;
-    }
-    .main_text .weds{
-        position: absolute;
-        top:5.6rem;
-        left:4.5rem;
-        font-size: 12px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .rozi{
-        position: absolute;
-        top: 7rem;
-        left: 2.7rem;
-        font-size: 18px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .date2{
-        position: absolute;
-        top: 8.8rem;
-        left: 2.8rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .animate{
-        position: absolute;
-        width: 235px;
-        height: 30px;
-        color: aliceblue;
-        bottom:5rem;
-        left: 4.6rem;
-        padding-left:6rem ;
-        padding-top: 0.8rem;
-        line-height: 2.1rem;
-        background-color: rgb(3, 2, 3);
-        box-shadow: 1px 1px 10px rgb(34, 255, 82), 1px 1px 10px rgb(34, 255, 82);
-        border-radius: 3.6rem;
-    }
-    .invite{
-        
-        position: absolute;
-        left: -2rem;
-        color: rgb(25, 206, 238);
-        font-size: 14px;
-        width: 300px;
-        bottom:-4rem;
-    }
-    .welcome{
-        position: relative;
-        left: -5.6rem;
-        font-size: 12px;
-        bottom: 0.9rem;
-        width: 230px;
-        
-    }
-    .container2{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-    .duwa{
-        position: relative;
-        width: 60px;
-        height: 70px;
-        top: 2.8rem;
-        left: 10.3rem;
-    }
-    .ladki_wla{
-        width: 220px;
-        height: 160px;
-        position: relative;
-        font-size: 12px;
-        left: 5.2rem;
-        top: 2.6rem;
-        padding-top:0.6rem ;
-        padding-left: 0.7rem;
-        color: rgb(30, 252, 252);
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 10px rgb(30, 252, 252), 1px 1px 10px gray;
-    }
-    .address{
-        font-size: 10px;
-    }
-    .ladka_wla{
-        width: 220px;
-        height: 90px;
-        position: relative;
-        left:5.3rem;
-        font-size:8.4px;
-        top: 5rem;
-        color: rgb(192, 8, 180);
-        padding-left: 0.8rem;
-        padding-top: 0.6rem;
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 8px rgb(192, 8, 180), 1px 1px 8px rgb(246, 14, 230);
-    }
-    .address2{
-        font-size: 12px;
-    }
-    .best{
-        width: 296px;
-        height: 33px;
-        position: relative;
-        left: 2.7rem;
-        bottom: -7.6rem;
-        color: rgb(63, 164, 253);
-        border-radius: 0.6rem;
-        font-size: 15px;
-        padding-left: 0.3rem;
-        padding-top: 0.5rem;
-        box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
-    }
-
-} */
-
-/* @media only screen and (max-width:378px){
-    .main{
-        width: 100%;
-        height: 100%;
-        
-    }
-    .container{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        
-    }
-    .log{
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        left: 0rem;
-        top: 100px;
-        
-    }
-    .heart{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 180px;
-        position: absolute;
-        left: 10px;
-        top: -7rem;
-    }
-    .knife{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 260px;
-        position: absolute;
-        left: 1rem;
-        top: -8rem;
-    }
-    .b{
-        position: absolute;
-        width: 45px;
-        height: 45px;
-        top:-2rem;
-        left: 45px;
-    }
-    .g{
-        position: absolute;
-        width:40px;
-        height: 40px;
-        top: -4rem;
-        left:7rem;
-    }
-    .weds-heart{
-        position: absolute;
-        left:37px;
-        height: 90px;
-        top: -5.6rem;
-    }
-    .main_text{
-        width: 180px;
-        height: 180px;
-        color: white;
-        border-top: 2px solid red;
-        border-left: 2px solid rgb(0, 8, 255);
-        border-bottom: 2px solid rgb(12, 255, 227);
-        border-right: 2px solid rgb(255, 0, 212);
-        border-radius: 50%;
-        position: absolute;
-        top: 9rem;
-        left: 6rem;
-        box-shadow: 1px 1px 10px rgb(228, 243, 20), 1px 1px 10px rgb(237, 210, 6);
-        animation: animate 12s linear infinite;
-    
-    }
-    @keyframes animate {
-        0%{
-            transform: rotate(0deg);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-    }
-    .main_text .date{
-        position: absolute;
-        left: 3rem;
-        top: 1rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .wedding{
-        position: absolute;
-        top: 2.5rem;
-        left:2.2rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-        color: rgb(251, 255, 0);
-    }
-    .main_text .iqbal{
-        position: absolute;
-        top: 3.8rem;
-        left: 2rem;
-        font-family: 'Dancing Script', cursive;
-        font-size: 18px;
-    }
-    .main_text .weds{
-        position: absolute;
-        top:5.6rem;
-        left:4.5rem;
-        font-size: 12px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .rozi{
-        position: absolute;
-        top: 7rem;
-        left: 2.7rem;
-        font-size: 18px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .date2{
-        position: absolute;
-        top: 8.8rem;
-        left: 2.8rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .animate{
-        position: absolute;
-        width: 235px;
-        height: 30px;
-        color: aliceblue;
-        bottom:5rem;
-        left: 4.2rem;
-        padding-left:6rem ;
-        padding-top: 0.8rem;
-        line-height: 2.1rem;
-        background-color: rgb(3, 2, 3);
-        box-shadow: 1px 1px 10px rgb(34, 255, 82), 1px 1px 10px rgb(34, 255, 82);
-        border-radius: 3.6rem;
-    }
-    .invite{
-        
-        position: absolute;
-        left: -2rem;
-        color: rgb(25, 206, 238);
-        font-size: 14px;
-        width: 300px;
-        bottom:-4rem;
-    }
-    .welcome{
-        position: relative;
-        left: -5.6rem;
-        font-size: 12px;
-        bottom: 0.9rem;
-        width: 230px;
-        
-    }
-    .container2{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
-    .duwa{
-        position: relative;
-        width: 50px;
-        height: 60px;
-        top: 2.8rem;
-        left: 10.3rem;
-    }
-    .ladki_wla{
-        width: 220px;
-        height: 160px;
-        position: relative;
-        font-size: 12px;
-        left: 4.7rem;
-        top: 3rem;
-        padding-top:0.6rem ;
-        padding-left: 0.7rem;
-        color: rgb(30, 252, 252);
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 10px rgb(30, 252, 252), 1px 1px 10px gray;
-    }
-    .address{
-        font-size: 10px;
-    }
-    .ladka_wla{
-        width: 220px;
-        height: 90px;
-        position: relative;
-        left:4.7rem;
-        font-size:8.4px;
-        top: 5rem;
-        color: rgb(192, 8, 180);
-        padding-left: 0.8rem;
-        padding-top: 0.6rem;
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 8px rgb(192, 8, 180), 1px 1px 8px rgb(246, 14, 230);
-    }
-    .address2{
-        font-size: 12px;
-    }
-    .best{
-        width: 296px;
-        height: 33px;
-        position: relative;
-        left: 2.5rem;
-        bottom: -7.6rem;
-        color: rgb(63, 164, 253);
-        border-radius: 0.6rem;
-        font-size: 15px;
-        padding-left: 0.3rem;
-        padding-top: 0.5rem;
-        box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
-    }
-
-} */
-
-/* @media only screen and (max-width:366px){
-    .main{
-        width: 100%;
-        height: 100%;
-        
-    }
-    .container{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        
-    }
-    .log{
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        left: 0rem;
-        top: 100px;
-        
-    }
-    .heart{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 180px;
-        position: absolute;
-        left: 10px;
-        top: -7rem;
-    }
-    .knife{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 260px;
-        position: absolute;
-        left: 3rem;
-        top: -8rem;
-    }
-    .b{
-        position: absolute;
-        width: 45px;
-        height: 45px;
-        top:-2rem;
-        left: 45px;
-    }
-    .g{
-        position: absolute;
-        width:40px;
-        height: 40px;
-        top: -4rem;
-        left:7rem;
-    }
-    .weds-heart{
-        position: absolute;
-        left:37px;
-        height: 90px;
-        top: -5.6rem;
-    }
-    .main_text{
-        width: 180px;
-        height: 180px;
-        color: white;
-        border-top: 2px solid red;
-        border-left: 2px solid rgb(0, 8, 255);
-        border-bottom: 2px solid rgb(12, 255, 227);
-        border-right: 2px solid rgb(255, 0, 212);
-        border-radius: 50%;
-        position: absolute;
-        top: 9rem;
-        left: 6rem;
-        box-shadow: 1px 1px 10px rgb(228, 243, 20), 1px 1px 10px rgb(237, 210, 6);
-        animation: animate 12s linear infinite;
-    
-    }
-    @keyframes animate {
-        0%{
-            transform: rotate(0deg);
-        }
-        100%{
-            transform: rotate(360deg);
-        }
-    }
-    .main_text .date{
-        position: absolute;
-        left: 3rem;
-        top: 1rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .wedding{
-        position: absolute;
-        top: 2.5rem;
-        left:2.2rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-        color: rgb(251, 255, 0);
-    }
-    .main_text .iqbal{
-        position: absolute;
-        top: 3.8rem;
-        left: 2rem;
-        font-family: 'Dancing Script', cursive;
-        font-size: 18px;
-    }
-    .main_text .weds{
-        position: absolute;
-        top:5.6rem;
-        left:4.5rem;
-        font-size: 12px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .rozi{
-        position: absolute;
-        top: 7rem;
-        left: 2.7rem;
-        font-size: 18px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .main_text .date2{
-        position: absolute;
-        top: 8.8rem;
-        left: 2.8rem;
-        font-size: 14px;
-        font-family: 'Dancing Script', cursive;
-    }
-    .animate{
-        position: absolute;
-        width: 235px;
-        height: 30px;
-        color: aliceblue;
-        bottom:5rem;
         left: 4rem;
-        padding-left:6rem ;
-        padding-top: 0.8rem;
-        line-height: 2.1rem;
-        background-color: rgb(3, 2, 3);
-        box-shadow: 1px 1px 10px rgb(34, 255, 82), 1px 1px 10px rgb(34, 255, 82);
-        border-radius: 3.6rem;
-    }
-    .invite{
-        
-        position: absolute;
-        left: -2rem;
-        color: rgb(25, 206, 238);
-        font-size: 14px;
-        width: 300px;
-        bottom:-4rem;
-    }
-    .welcome{
+        /* border: 1px solid red; */
+        width: 90px;
+        height: 20px;
+        top: 3rem;
+        padding-left: 0rem;
+        padding-top:0.2rem ;
+        font-size: 15px;
+        color: rgb(37, 9, 129);
+     }
+     .togather{
         position: relative;
-        left: -5.6rem;
+        left: 1rem;
+        /* border: 1px solid  red; */
+        width: 180px;
+        height: 40px;
+        top: 2rem;
+        padding-left: 1rem;
+        padding-top:0.2rem ;
+        font-size: 15px;
+        color: rgb(243, 46, 243);
+      
+     }
+     .mini{
+        position: relative;
+        left: 3rem;
+        /* border: 1px solid red; */
+        width: 150px;
+        height: 100px;
+        top: 0rem;
+        padding-left: 0.2rem;
+        padding-top:0.1rem ;
         font-size: 12px;
-        bottom: 0.9rem;
-        width: 230px;
-        
+      
+        font-family: 'Dancing Script', cursive;
+        color: rgb(23, 18, 122);
+    
+     }
+     .weds{
+        position: relative;
+        left: 3rem;
+        color: rgb(70, 96, 141);
+     }
+     .invi{
+        position: relative;
+        /* border: 1px solid red; */
+        width: 200px;
+        height: 20px;
+        font-size: 10px;
+        left: 1.2rem;
+        bottom: 2rem;
+     }
+    .date{
+        position: relative;
+        /* border: 1px solid red; */
+        width: 140px;
+        height: 27px;
+        left: 3.2rem;
+        bottom: 3.7rem;
+        font-size:16px;
+        font-weight: 600;
+        font-family: 'Dancing Script', cursive;
+        color: rgb(255, 196, 0);
     }
-    .container2{
-        width: 100%;
-        height:100vh;
-        background-image: url(d1d5885ffe815c64b5590413a2f5b2bc.jpg);
-        background-repeat: no-repeat;
+    .foloow{
+        position: relative;
+        /* border: 1px solid red; */
+        width: 120px;
+        height: 25px;
+        left: 3.5rem;
+        font-size: 17px;
+        bottom: 6rem;
+        font-family: 'Dancing Script', cursive;
+        color: rgb(228, 78, 248);
+    }
+    .second{
+        border: 1px solid red;
+        width: 35%;
+        height: 90vh;
+        display: flex;
+        position: relative;
+        left: 12rem;
+        background-image: url(926ebe72a878965a0d75b9bde47fb2eb.jpg);
         background-size: 100% 100%;
     }
-    .duwa{
+    .third{
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 350px;
         position: relative;
-        width: 60px;
-        height: 70px;
-        top: 2.8rem;
-        left: 9.8rem;
-    }
-    .ladki_wla{
-        width: 220px;
-        height: 160px;
-        position: relative;
-        font-size: 12px;
-        left: 4.4rem;
-        top: 2.6rem;
-        padding-top:0.6rem ;
-        padding-left: 0.7rem;
-        color: rgb(30, 252, 252);
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 10px rgb(30, 252, 252), 1px 1px 10px gray;
-    }
-    .address{
+        top: 4rem;
+        padding-left: 1rem;
         font-size: 10px;
+         font-family: 'Cinzel', serif;
+         color: rgb(16, 44, 114);
     }
-    .ladka_wla{
-        width: 220px;
-        height: 90px;
+    .fourth{
+        /* border: 1px solid red; */
+        height: 120px;
+        width: 300px;
+        font-size: 10px;
+        right: 1.2rem;
         position: relative;
-        left:4.4rem;
-        font-size:8.4px;
-        top: 5rem;
-        color: rgb(192, 8, 180);
-        padding-left: 0.8rem;
-        padding-top: 0.6rem;
-        line-height: 1rem;
-        border-radius: 0.6rem;
-        box-shadow: 1px 1px 8px rgb(192, 8, 180), 1px 1px 8px rgb(246, 14, 230);
+        top: 18rem;
+        padding-left: 1.4rem;
+         font-family: 'Cinzel', serif;
+         color: rgb(16, 44, 114);
     }
-    .address2{
-        font-size: 12px;
+    .form{
+        color: rgb(6, 130, 91);
+        font-weight:bold;
     }
-    .best{
-        width: 296px;
-        height: 33px;
-        position: relative;
-        left: 2.3rem;
-        bottom: -7.6rem;
-        color: rgb(63, 164, 253);
-        border-radius: 0.6rem;
-        font-size: 15px;
-        padding-left: 0.3rem;
-        padding-top: 0.5rem;
-        box-shadow: 1px 1px 10px rgb(117, 145, 222), 1px 1px 10px rgb(108, 149, 237);
-    }
-
-} */
+}

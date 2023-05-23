@@ -4,78 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid HipHop</title>
+    <title>Age Calculator</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="grid_container">
-        <h1>Analyse Points</h1>
-    <div class="grid_content">
-        <div class="grid_item" id="grid-1">
-            <label for="" class="strn">S trengths</label>
-            <ul>
-                <li>Capabilities</li>
-                <li>Competitive advantages</li>
-                <li>Resources, assests and people</li>
-                <li>Experience, knowladge and data</li>
-                <li>Financial reserves, returns</li>
-                <li>Marketing, reach</li>
-                <li>Innovative, aspects</li>
-                <li>Location, geographical</li>
-                <li>Price, value and quality</li>
-                <li>Processes, systems, it, communication</li>
-                <li>Advantages of proposition</li>
-            </ul>
+    <h1>Age Calculator</h1>
+    <main class="container">
+        <div class="input">
+            <label id="lable" for="birthdate">Enter Your Birthdate :</label>
+            <input type="date" id="birthdate" />
         </div>
-        <div class="grid_item" id="grid-2">
-            <label for="" class="strn">W eaknesses</label>
-            <ul>
-                <li>Capabilities</li>
-                <li>Competitive advantages</li>
-                <li>Resources, assests and people</li>
-                <li>Experience, knowladge and data</li>
-                <li>Financial reserves, returns</li>
-                <li>Marketing, reach</li>
-                <li>Innovative, aspects</li>
-                <li>Location, geographical</li>
-                <li>Price, value and quality</li>
-                <li>Processes, systems, it, communication</li>
-                <li>Advantages of proposition</li>
-            </ul>
+        <ul>
+            <li><span id="years"></span>Years</li>
+            <li><span id="months"></span>Months</li>
+            <li><span id="days"></span>Days</li>
+            <!-- <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li> -->
+        </ul>
+        <div class="btns">
+            <button onclick="calculate()">Calculate</button>
+            <button onclick="reset()">Reset</button>
         </div>
-        <div class="grid_item" id="grid-3">
-            <label for="" class="strn">O pportunities</label>
-            <ul>
-                <li>Capabilities</li>
-                <li>Competitive advantages</li>
-                <li>Resources, assests and people</li>
-                <li>Experience, knowladge and data</li>
-                <li>Financial reserves, returns</li>
-                <li>Marketing, reach</li>
-                <li>Innovative, aspects</li>
-                <li>Location, geographical</li>
-                <li>Price, value and quality</li>
-                <li>Processes, systems, it, communication</li>
-                <li>Advantages of proposition</li>
-            </ul>
-        </div>
-        <div class="grid_item" id="grid-4">
-            <label for="" class="strn">T hreats</label>
-            <ul>
-                <li>Capabilities</li>
-                <li>Competitive advantages</li>
-                <li>Resources, assests and people</li>
-                <li>Experience, knowladge and data</li>
-                <li>Financial reserves, returns</li>
-                <li>Marketing, reach</li>
-                <li>Innovative, aspects</li>
-                <li>Location, geographical</li>
-                <li>Price, value and quality</li>
-                <li>Processes, systems, it, communication</li>
-                <li>Advantages of proposition</li>
-            </ul>
-        </div>
-    </div>
-    </div>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
